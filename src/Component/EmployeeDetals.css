@@ -1,0 +1,34 @@
+html {
+    font-size: 10px;
+}
+.row{
+    --bs-gutter-y: 1.5rem;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    width: 100%;
+    max-width: 300px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  .card img{
+      width: 100%;
+      object-fit: cover;
+  }
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .card .employee-detail .detail, .card .employee-detail h4{
+    font-size: 1.2rem;
+  }
+
+  
+
